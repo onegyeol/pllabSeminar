@@ -17,7 +17,7 @@ Next.js는 React를 기반으로 한 오픈소스 프레임워크로, 서버사�
 
 ![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white) <br/>
 Node.js는 자바스크립트 엔진을 기반으로 하는 자바스크립트 런타임 환경으로, 이벤트 기반, 비동기 I/O를 지원하여 높은 동시성과 확장성을 갖춘 서버 애플리케이션을 개발할 수 있게 합니다. 서버 측 애플리케이션 개발에 널리 사용되며, npm 패키지 관리자를 통해 다양한 라이브러리와 도구를 사용할 수 있습니다.
-이번 세미나는 개념 위주가 아닌 실습 위주로 진행되었기에 Node.js로 서버를 구축하는 방법에 대해서도 배울 수 있었습니다.
+이번 세미나는 개념 위주가 아닌 실습 위주로 진행되었기에 Node.js로 서버를 구축하는 방법에 대해서도 배울 수 있었습니다. <br/><br/>
 
 
 ![GO](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
