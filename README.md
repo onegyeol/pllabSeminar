@@ -21,3 +21,16 @@ Node.js는 자바스크립트 엔진을 기반으로 하는 자바스크립트 �
 
 
 ![GO](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+
+
+### 트러블 슈팅
+1. 실행 오류
+```
+main.go:1:1: expected 'package', found 'EOF'
+```
+이 에러는 Go 컴파일러가 package 키워드를 예상했는데 파일이 비어 있다고(EOL, end-of-file) 판단한 경우 발생한다고 한다.
+```
+rm main.go
+touch main.go
+```
+다음과 같은 명령어를 차례대로 적어준 뒤, 삭제된 파일의 코드를 옮겨적으니 실행이 되었다.
