@@ -1,9 +1,0 @@
-## Chapter 6 트러블 슈팅
-
-1. go run . error
-
-```
-main.go:1:1: expected 'package', found 'EOF'
-```
-
-
