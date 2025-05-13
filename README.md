@@ -34,3 +34,22 @@ rm main.go
 touch main.go
 ```
 다음과 같은 명령어를 차례대로 적어준 뒤, 삭제된 파일의 코드를 옮겨적으니 실행이 되었다.
+
+2. 실행 중 포인터 리시버 오류
+```
+# methodsAndInterfaces
+./main.go:38:3: cannot use Product{…} (value of struct type Product) as Expense value in array or slice literal: Product does not implement Expense (method getCost has pointer receiver)
+```
+이 에러는 
+- Product의 getCost 메서드가 포인터 리시버로 정의되었지만,
+- 인터페이스에 값 타입(Product) 을 넘겨 인터페이스 구현에 실패하여 오류가 난 것이다.
+
+포인터로 값을 넘기도록 수정해주니 제대로 실행되었다.
+```
+expenses := []Expense{
+    &Product{"kayak", "waterSports", 275},
+}
+```
+포인터 리시버에 대해 처음 사용하다보니 이런 오류가 발생했던 것 같다.
+
+
