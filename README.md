@@ -142,7 +142,7 @@ IO.inspect(current, label: "Agent state")   # 출력: Agent state: [1, 2, 3, 4]
 
 ![Next.js](https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=fff&style=for-the-badge) <br/>
 
-### 주요 개념
+## 주요 개념
 - React 기반 프레임워크: Next.js는 React를 기반으로 한 오픈 소스 프론트엔드 프레임워크로, **SSR(서버사이드 렌더링)**과 **SSG(정적 사이트 생성)**를 지원하여 초기 로드 속도와 사용자 경험을 향상시킵니다.
 - SEO 향상: SSR/SSG로 미리 렌더된 HTML을 제공하기 때문에 검색 엔진 크롤러가 페이지 내용을 쉽게 읽을 수 있어 SEO에 유리한 웹 애플리케이션을 구축할 수 있습니다.
 - 파일 기반 라우팅: /pages 디렉토리 구조만으로 자동으로 라우팅이 설정되며, 링크 이동이나 동적 라우팅 등도 편리하게 구현됩니다. 별도의 라우터 설정 없이 파일 생성으로 페이지 추가가 가능합니다.
@@ -207,7 +207,7 @@ MongoClient.connect("mongodb://localhost:27017", function(err, db) {
 
 ![GO](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 
-### 주요 개념
+## 주요 개념
 - 간결한 컴파일 언어: Go(골랑)는 Google에서 설계한 정적 타입의 컴파일 언어로, 문법이 단순하고 컴파일 속도가 빨라 대규모 프로젝트에서도 개발 효율을 높일 수 있습니다. C 언어의 성능과 파이썬의 생산성을 절충한 느낌의 언어입니다.
 - 메모리 관리: 가비지 컬렉션을 내장하여 메모리를 자동으로 관리해주며, 개발자는 메모리 누수나 해제에 대해 신경 쓸 부분이 줄어듭니다. 포인터를 지원하지만 pointer 연산은 제한적이며, Null 포인터 역참조에 대한 안전장치는 없습니다.
 - 동시성 지원: Go의 가장 큰 특징 중 하나는 **고루틴(goroutine)**이라 불리는 경량 스레드와 **채널(channel)**을 통한 통신입니다. 고루틴은 수만 개를 생성해도 성능이 뛰어나며, 채널로 고루틴 간 데이터를 주고받아 병행 프로그래밍을 간소화합니다.
